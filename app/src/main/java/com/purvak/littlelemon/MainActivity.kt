@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 //                }
 
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    RestaurantName(name = stringResource(id = R.string.app_name), size = 32)
+                    RestaurantName(name = stringResource(id = R.string.title), size = 32)
                 }
             }
         }
